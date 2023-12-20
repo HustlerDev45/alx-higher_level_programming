@@ -6,11 +6,11 @@
 class Square:
     """Defines a Square."""
     def __init__(self, size=0):
-    """Initialize a new Square.
+        """Initialize a new Square.
 
-        Parameters:
-            size (int): New Square's size.
-    """
+            Parameters:
+                size (int): New Square's size.
+        """
     if not isinstance(size, int):
         raise TypeError("size must be an integer")
     elif size < 0:
